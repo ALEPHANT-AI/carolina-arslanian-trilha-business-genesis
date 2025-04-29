@@ -1,73 +1,50 @@
-# Welcome to your Lovable project
+# Trilha Business Genesis
 
-## Project info
+Projeto React + Vite + TypeScript + Tailwind CSS
 
-**URL**: https://lovable.dev/projects/247e0cad-389a-4d93-8233-ee574b40f3bd
+## Como rodar localmente
 
-## How can I edit this code?
+1. Clone este repositório:
+   ```sh
+   git clone https://github.com/ALEPHANT-AI/trilha-business-genesis.git
+   ```
+2. Acesse a pasta do projeto:
+   ```sh
+   cd trilha-business-genesis
+   ```
+3. Instale as dependências:
+   ```sh
+   npm install
+   # ou, se preferir, bun install
+   ```
+4. Rode o servidor de desenvolvimento:
+   ```sh
+   npm run dev
+   # ou, se preferir, bun run dev
+   ```
+5. Abra o navegador em [http://localhost:8080](http://localhost:8080) (ou endereço indicado no terminal)
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## Tecnologias utilizadas
+- [Vite](https://vitejs.dev/)
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [shadcn/ui](https://ui.shadcn.com/)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/247e0cad-389a-4d93-8233-ee574b40f3bd) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## Deploy e domínio
+Por enquanto, o projeto roda apenas localmente. Em breve, conectaremos um domínio personalizado via GitHub Pages ou outro serviço.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Como contribuir
+1. Faça um fork do repositório
+2. Crie uma branch para sua feature/correção
+3. Envie um Pull Request
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/247e0cad-389a-4d93-8233-ee574b40f3bd) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+ 2025 Carolina Arslanian / ALEPHANT-AI
