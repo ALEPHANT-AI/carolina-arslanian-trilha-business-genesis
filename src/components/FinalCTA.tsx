@@ -1,5 +1,5 @@
 
-import { ArrowRight, Whatsapp } from "lucide-react";
+import { ArrowRight, MessageCircle } from "lucide-react";
 
 const FinalCTA = () => {
   return (
@@ -26,7 +26,7 @@ const FinalCTA = () => {
               <ArrowRight className="w-5 h-5" />
             </a>
             <a href="#" className="flex items-center justify-center gap-2 outline-button">
-              <Whatsapp className="w-5 h-5" />
+              <MessageCircle className="w-5 h-5" />
               Entrar na Lista VIP via WhatsApp
             </a>
           </div>

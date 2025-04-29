@@ -1,5 +1,5 @@
 
-import { Brain, Compass, Connection } from "lucide-react";
+import { Brain, Compass, Network } from "lucide-react";
 
 const DayByDayBreakdown = () => {
   return (
@@ -95,7 +95,7 @@ const programDays = [
   },
   {
     title: "Encontro 3 (Online) – Integração e Expansão",
-    icon: <Connection className="w-6 h-6" />,
+    icon: <Network className="w-6 h-6" />,
     objective: "Consolidar a nova identidade de liderança e expandir para outros contextos",
     keyElements: [
       "Check-in de Resultados",
