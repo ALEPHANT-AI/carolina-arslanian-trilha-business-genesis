@@ -1,4 +1,3 @@
-
 const FacilitatorBio = () => {
   return (
     <section id="about" className="bg-sage py-20">
@@ -15,7 +14,7 @@ const FacilitatorBio = () => {
           <div className="md:col-span-2">
             <div className="rounded-lg overflow-hidden shadow-lg">
               <img 
-                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" 
+                src="https://static.wixstatic.com/media/9a6a60_88ba60b1f69f4834bafce96c4b06302f~mv2.jpg" 
                 alt="Carolina Arslanian" 
                 className="w-full h-full object-cover"
               />
