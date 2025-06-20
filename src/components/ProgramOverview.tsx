@@ -7,7 +7,7 @@ const ProgramOverview = () => {
           <h2 className="section-title text-white">Estrutura Estratégica</h2>
           <div className="divider bg-gold/60"></div>
           <p className="section-subtitle text-cream/90">
-            Duas jornadas presenciais intensivas + um encontro digital transformador
+            Duas jornadas digitais transformadoras + um encontro presencial imersivo
           </p>
         </div>
         
@@ -54,23 +54,22 @@ const Timeline = () => {
 const programDetails = [
   {
     title: "Local",
-    description: "São Paulo (espaço premium fornecido pela Perla)"
+    description: "São Paulo, Casa Casulo"
   },
   {
-    title: "Carga Horária",
-    description: "Sábado (3h) + Domingo (3h) + Integração Digital (1h30)"
+    title: "Investimento de Tempo",
+    description: "08.08 (2h) + 22.08 (3h30) + 05.09 (2h)"
   },
   {
     title: "Formato",
-    description: "Combinação de momentos em grupo, trabalho em duplas e reflexões individuais"
+    description: "Combinação de momentos em grupos pequenos, trabalho em duplas e reflexões individuais"
   }
 ];
 
 const timelinePoints = [
-  "Início da Jornada",
-  "Dia 1 - Presencial",
-  "Dia 2 - Presencial", 
-  "Encontro Digital"
+  "08.08 - Digital (8h às 10h)",
+  "22.08 - Presencial (7h30 às 11h)", 
+  "05.09 - Digital (8h às 10h)"
 ];
 
 export default ProgramOverview;

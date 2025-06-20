@@ -63,8 +63,8 @@ const ListItem = ({ text, icon, iconClass, bgClass }: ListItemProps) => (
 );
 
 const forWho = [
-  "Fundadoras que lideram com excelência, mas desejam mais equilíbrio",
-  "Executivas que enfrentam decisões críticas em ambientes de pressão",
+  "Mulheres, fundadoras e/ou líderes que lideram com excelência, mas desejam mais equilíbrio",
+  "Mulheres que enfrentam decisões críticas em ambientes de pressão",
   "Mulheres que sabem que potência interna é o maior ativo de liderança"
 ];
 

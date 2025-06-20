@@ -9,7 +9,7 @@ const Pricing = () => {
           <h2 className="section-title text-white">Investimento Estratégico</h2>
           <div className="divider bg-gold/60"></div>
           <p className="section-subtitle text-cream/90">
-            Vagas extremamente limitadas
+            Vagas extremamente limitadas para uma abordagem imersiva
           </p>
         </div>
         
@@ -20,16 +20,7 @@ const Pricing = () => {
         </div>
         
         <div className="text-center mt-10 text-white/80 text-sm">
-          Investimento parcelável em até 12x
-        </div>
-        
-        <div className="mt-16 max-w-xl mx-auto">
-          <div className="w-full bg-white/10 h-2 rounded-full">
-            <div className="bg-gold h-2 rounded-full w-3/4"></div>
-          </div>
-          <p className="text-cream mt-4 text-center">
-            75% das vagas preenchidas
-          </p>
+          Investimento parcelável em até 2x
         </div>
       </div>
     </section>
@@ -39,8 +30,9 @@ const Pricing = () => {
 interface PricingTierProps {
   name: string;
   price: string;
-  status: "esgotado" | "ativo" | "";
+  status: "esgotado" | "ativo" | "family";
   isPopular?: boolean;
+  subtitle?: string;
 }
 
 const PricingCard = ({ tier, index }: { tier: PricingTierProps; index: number }) => {
@@ -68,6 +60,10 @@ const PricingCard = ({ tier, index }: { tier: PricingTierProps; index: number })
           {tier.name}
         </h3>
         
+        {tier.subtitle && (
+          <p className="text-white/70 text-sm mb-3">{tier.subtitle}</p>
+        )}
+        
         <div className="my-4">
           <span className="text-white text-3xl font-bold font-playfair">{tier.price}</span>
         </div>
@@ -76,20 +72,15 @@ const PricingCard = ({ tier, index }: { tier: PricingTierProps; index: number })
           <button disabled className="w-full py-3 px-4 rounded bg-white/20 text-white/70 cursor-not-allowed">
             Esgotado
           </button>
-        ) : tier.status === "ativo" ? (
-          <a 
-            href="#cta"
-            className="w-full gold-button flex items-center justify-center gap-2"
-          >
-            Garantir Minha Vaga
-            <ArrowRight className="w-4 h-4" />
-          </a>
         ) : (
           <a 
             href="#cta"
-            className="w-full outline-button"
+            className={`w-full flex items-center justify-center gap-2 ${
+              tier.isPopular ? "gold-button" : "outline-button"
+            }`}
           >
-            Garantir Minha Vaga
+            Garantir Vaga
+            <ArrowRight className="w-4 h-4" />
           </a>
         )}
         
@@ -99,13 +90,17 @@ const PricingCard = ({ tier, index }: { tier: PricingTierProps; index: number })
               ? "bg-white/10 text-white/60" 
               : tier.status === "ativo" 
                 ? "bg-gold/20 text-gold" 
-                : "bg-white/10 text-white/60"
+                : tier.status === "family"
+                  ? "bg-cream/20 text-cream"
+                  : "bg-white/10 text-white/60"
           }`}>
             {tier.status === "esgotado" 
               ? "Esgotado" 
               : tier.status === "ativo" 
-                ? "Ativo" 
-                : "Em breve"}
+                ? "Lote Atual" 
+                : tier.status === "family"
+                  ? "Desconto Especial"
+                  : "Restam apenas 5 vagas"}
           </span>
         </div>
       </div>
@@ -116,19 +111,20 @@ const PricingCard = ({ tier, index }: { tier: PricingTierProps; index: number })
 const pricingTiers = [
   {
     name: "Lote Inicial",
-    price: "R$900",
-    status: "esgotado" as const
+    price: "R$835",
+    status: "esgotado" as const,
+    subtitle: "Restam apenas 5 vagas"
   },
   {
-    name: "Segundo Lote",
-    price: "R$1.200",
+    name: "Lote Atual",
+    price: "R$1.085",
     status: "ativo" as const,
     isPopular: true
   },
   {
-    name: "Lote Final",
-    price: "R$1.500",
-    status: "" as const
+    name: "Family & Friends",
+    price: "R$450",
+    status: "family" as const
   }
 ];
 

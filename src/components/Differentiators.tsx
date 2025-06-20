@@ -73,6 +73,11 @@ const differentiators = [
     icon: <StarIcon />
   },
   {
+    title: "Comunidade & Curadoria Perlla",
+    description: "Acesso à experiências cuidadosamente desenhadas para gerar conexões profundas e inspiradoras",
+    icon: <SparkleIcon />
+  },
+  {
     title: "Metodologia própria com aplicação real e prática",
     description: "Ferramentas desenvolvidas em ambientes corporativos globais com resultados comprovados",
     icon: <MethodIcon />
@@ -81,11 +86,6 @@ const differentiators = [
     title: "Integração entre neurociência, performance e autenticidade",
     description: "Base científica aliada a uma visão humanizada da liderança",
     icon: <BrainIcon />
-  },
-  {
-    title: "Estética e ambiente premium",
-    description: "Experiência cuidadosamente desenhada para inspirar clareza e transformação",
-    icon: <SparkleIcon />
   }
 ];
 

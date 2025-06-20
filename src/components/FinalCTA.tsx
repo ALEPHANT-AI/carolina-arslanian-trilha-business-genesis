@@ -7,16 +7,13 @@ const FinalCTA = () => {
       <div className="section-container">
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="section-title">
-            Transforme sua sabotagem invisível na sua maior vantagem de liderança
+            Não basta resistir ao caos — é hora de crescer através dele
           </h2>
           <div className="divider"></div>
-          <p className="text-xl mb-8">
-            Não basta resistir ao caos — é hora de crescer através dele.
-          </p>
           
           <div className="mb-12">
             <div className="inline-block bg-sage/10 backdrop-blur-sm border border-sage/20 px-8 py-3 rounded-full text-sage font-medium">
-              Inscrições Abertas a Partir de 6 de Maio
+              Inscrições Abertas a partir de 10 de Junho
             </div>
           </div>
           

@@ -8,14 +8,20 @@ const Hero = () => {
       <div className="section-container relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <div className="animate-fade-in">
+            <div className="mb-4 text-cream/80 text-sm">
+              Trilha Business Therapy com Carolina Arslanian, criadora do Business Therapy Code™ e especialista em Liderança com mais impacto e menos desgaste pessoal.
+            </div>
+            <div className="mb-6 text-cream/70 text-sm italic">
+              Powered by Perlla - curadoria e collab exclusiva
+            </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-playfair text-white mb-4">
               Trilha Business Therapy™
             </h1>
             <h2 className="text-2xl md:text-3xl font-playfair text-cream/90 mb-6">
-              De Sabotagem Mental à Liderança Regenerativa™
+              De Auto Sabotagem à Flexibilidade e Resiliência Mental
             </h2>
             <p className="text-lg md:text-xl text-white/90 mb-12 mx-auto max-w-3xl">
-              Uma jornada imersiva de transformação para mulheres em posições de liderança que buscam converter sabotagem mental em poder estratégico e presença executiva autêntica.
+              Uma jornada imersiva de transformação para mulheres em posições de liderança que desejam converter sabotagem mental em flexibilidade e resiliência mental como vantagem competitiva.
             </p>
             
             <div className="flex flex-col md:flex-row justify-center gap-4">
@@ -30,7 +36,7 @@ const Hero = () => {
             
             <div className="mt-12 inline-block">
               <div className="bg-cream/10 backdrop-blur-sm border border-cream/20 px-6 py-3 rounded-full text-white">
-                Inscrições a partir de 6 de Maio
+                Inscrições a partir de 10 de Junho
               </div>
             </div>
           </div>

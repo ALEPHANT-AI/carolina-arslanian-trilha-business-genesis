@@ -48,16 +48,16 @@ const BenefitCard = ({ benefit, index }: { benefit: BenefitProps, index: number 
 
 const benefits = [
   {
-    title: "Domínio Mental Estratégico",
+    title: "Resiliência & Flexibilidade Mental",
     description: "Técnicas comprovadas para gerenciar pensamentos e emoções em momentos-chave de pressão e decisão."
   },
   {
-    title: "Clareza Decisiva Regenerativa",
+    title: "Clareza Decisiva",
     description: "A capacidade de tomar decisões importantes com confiança, mesmo em ambientes caóticos e incertos."
   },
   {
     title: "Presença Executiva Autêntica",
-    description: "Desenvolvimento de uma presença executiva que impacta sem precisar recorrer a comportamentos inautênticos."
+    description: "Desenvolvimento de uma presença executiva que impacta e fortalecimento da auto-imagem para maximizar a sua auto-confiança."
   },
   {
     title: "Autenticidade como diferencial competitivo",
@@ -65,7 +65,11 @@ const benefits = [
   },
   {
     title: "Comunidade de líderes conscientes",
-    description: "Acesso a uma rede de mulheres líderes comprometidas com uma liderança mais humana e sustentável."
+    description: "Acesso a uma rede de mulheres líderes comprometidas com uma liderança mais humana e regenerativa."
+  },
+  {
+    title: "Suporte contínuo após o programa",
+    description: "Acesso a recursos exclusivos e sessões de acompanhamento para garantir a implementação bem-sucedida."
   }
 ];
 

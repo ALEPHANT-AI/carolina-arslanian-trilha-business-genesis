@@ -7,7 +7,7 @@ const ProblemSolution = () => {
           <h2 className="section-title">A Batalha Mais Importante Não Está no Mercado</h2>
           <div className="divider"></div>
           <p className="italic text-xl md:text-2xl font-playfair text-elegant-black/80 mt-8">
-            "Onde o tempo deixa de ser urgência, e vira aliança."
+            "Está na sua resiliência e flexibilidade mental para liderar com mais impacto e menos desgaste pessoal."
           </p>
         </div>
         
@@ -19,6 +19,11 @@ const ProblemSolution = () => {
                 <ListItem key={`challenge-${index}`} text={item} />
               ))}
             </ul>
+            <div className="mt-8 p-4 bg-gold/10 rounded-lg">
+              <p className="text-elegant-black font-medium text-center">
+                <strong>Atenção!</strong> Este não é um curso e sim um workshop imersivo de transformação.
+              </p>
+            </div>
           </div>
           
           <div className="premium-card bg-white animate-fade-in-left">
@@ -87,14 +92,15 @@ const Arrow = () => (
 
 const challenges = [
   "70% dos seus pensamentos diários são sabotadores",
-  "Excelência técnica te trouxe até aqui, mas não te levará mais longe",
-  "O caos externo amplifica a sabotagem interna"
+  "O caos externo amplifica o síndrome da impostora",
+  "Códigos invisíveis geram pressão pela perfeição e medo de falhar",
+  "Por isso, excelência técnica te trouxe até aqui, mas não te levará mais longe"
 ];
 
 const solutions = [
-  "Domínio mental como vantagem competitiva",
-  "Clareza decisória mesmo sob pressão",
-  "Liderança que regenera ao invés de esgotar"
+  "Flexibilidade e resiliência mental como vantagem competitiva para sua liderança",
+  "Mais clareza e presença no processo de tomada de decisão mesmo sob pressão",
+  "Liderança Regenerativa com menos desgaste pessoal, mais energia produtiva"
 ];
 
 export default ProblemSolution;
